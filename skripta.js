@@ -44,10 +44,6 @@ window.addEventListener('load', function() {
 		start.addEventListener('click', zagon);
 	}
 	
-	var stop = function(event) {
-		ustavi = true;
-	}
-	
 	var zagon = function(event) {
 		vrednosti = [];
 		var barve = document.querySelectorAll("#barve > button");
